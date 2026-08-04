@@ -21,7 +21,6 @@ public void AddTask(string taskName)
         _taskQueue.Enqueue(taskName);
         Console.WriteLine(taskName);
     }
-
 public void ProcessNextTask()
     {
         if (_taskQueue.Count == 0)
